@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/292/trunk/Code/Bluetooth
+END
+BluetoothHCIEventCodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/213/trunk/Code/Bluetooth/BluetoothHCIEventCodes.h
+END
+BluetoothClassCodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/213/trunk/Code/Bluetooth/BluetoothClassCodes.h
+END
+BluetoothHCI.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/213/trunk/Code/Bluetooth/BluetoothHCI.h
+END
+BluetoothCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/292/trunk/Code/Bluetooth/BluetoothCommon.h
+END
+Bluetooth.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/213/trunk/Code/Bluetooth/Bluetooth.c
+END
+BluetoothL2CAP.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/213/trunk/Code/Bluetooth/BluetoothL2CAP.c
+END
+BluetoothL2CAPSignalCodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/213/trunk/Code/Bluetooth/BluetoothL2CAPSignalCodes.h
+END
+BluetoothHCI.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/291/trunk/Code/Bluetooth/BluetoothHCI.c
+END
+BluetoothL2CAPPacketTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/213/trunk/Code/Bluetooth/BluetoothL2CAPPacketTypes.h
+END
+Bluetooth.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/277/trunk/Code/Bluetooth/Bluetooth.h
+END
+BluetoothHCIPacketTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/213/trunk/Code/Bluetooth/BluetoothHCIPacketTypes.h
+END
+BluetoothL2CAP.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/213/trunk/Code/Bluetooth/BluetoothL2CAP.h
+END

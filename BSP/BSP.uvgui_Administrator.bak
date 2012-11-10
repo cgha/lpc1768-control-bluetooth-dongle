@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectGui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_gui.xsd">
+
+  <SchemaVersion>-2.1</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <ViewPool/>
+
+  <SECTreeCtrl>
+    <View>
+      <WinId>38003</WinId>
+      <ViewName>Registers</ViewName>
+      <TableColWidths>115 163</TableColWidths>
+    </View>
+    <View>
+      <WinId>346</WinId>
+      <ViewName>Code Coverage</ViewName>
+      <TableColWidths>613 304</TableColWidths>
+    </View>
+    <View>
+      <WinId>204</WinId>
+      <ViewName>Performance Analyzer</ViewName>
+      <TableColWidths>773 115 115 100</TableColWidths>
+    </View>
+  </SECTreeCtrl>
+
+  <TreeListPane>
+    <View>
+      <WinId>1506</WinId>
+      <ViewName>Symbols</ViewName>
+      <UserString></UserString>
+      <TableColWidths>133 133 133</TableColWidths>
+    </View>
+    <View>
+      <WinId>1936</WinId>
+      <ViewName>Watch 1</ViewName>
+      <UserString></UserString>
+      <TableColWidths>192 133 133</TableColWidths>
+    </View>
+    <View>
+      <WinId>1937</WinId>
+      <ViewName>Watch 2</ViewName>
+      <UserString></UserString>
+      <TableColWidths>133 133 133</TableColWidths>
+    </View>
+    <View>
+      <WinId>1935</WinId>
+      <ViewName>Call Stack + Locals</ViewName>
+      <UserString></UserString>
+      <TableColWidths>133 133 133</TableColWidths>
+    </View>
+    <View>
+      <WinId>2506</WinId>
+      <ViewName>Trace Data</ViewName>
+      <UserString></UserString>
+      <TableColWidths>75 135 130 95 70 230 200</TableColWidths>
+    </View>
+  </TreeListPane>
+
+  <WindowSettings>
+    <LogicAnalizer>
+      <ShowLACursor>0</ShowLACursor>
+      <ShowSignalInfo>0</ShowSignalInfo>
+      <ShowCycles>0</ShowCycles>
+    </LogicAnalizer>
+  </WindowSettings>
+
+  <WinLayoutEx>
+    <sActiveDebugView></sActiveDebugView>
+    <WindowPosition>
+      <length>44</length>
+      <flags>2</flags>
+      <showCmd>3</showCmd>
+      <MinPosition>
+        <xPos>-32045</xPos>
+        <yPos>-32000</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>-1</xPos>
+        <yPos>-1</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>156</Top>
+        <Left>252</Left>
+        <Right>1212</Right>
+        <Bottom>853</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+    <MDIClientArea>
+      <RegID>0</RegID>
+      <MDITabState>
+        <Len>1443</Len>
+        <Data>0100000004000000010000000100000000000000010000000000000002000000000000000100000001000000000000002800000028000000010000000C0000000200000001000000544A3A5C6E78705553426C69622076302E39375C6170706C69636174696F6E735C6578616D706C65735C6E78705553426C69625C4578616D706C655F4B6579626F6172644465766963655C4B6579626F6172642E63000000000A4B6579626F6172642E6300000000FFFFFFFFFFFFFFFF494A3A5C6E78705553426C69622076302E39375C6C69627261726965735C43444C5C434D53495376327030305F4C5043313778785C7372635C737461727475705F4C5043313778782E730000000011737461727475705F4C5043313778782E7300000000FFFFFFFFFFFFFFFF4F4A3A5C6E78705553426C69622076302E39375C6C69627261726965735C6E78705553426C69625C447269766572735C5553425C436F72655C4C50435C555342436F6E74726F6C6C65725F4C50432E630000000013555342436F6E74726F6C6C65725F4C50432E6300000000FFFFFFFFFFFFFFFF25433A5C4B65696C5C41524D5C496E635C4E58505C4C5043313778785C4C5043313778782E6800000000094C5043313778782E6800000000FFFFFFFFFFFFFFFF4F4A3A5C6E78705553426C69622076302E39375C6C69627261726965735C6E78705553426C69625C447269766572735C5553425C436F72655C4C50435C555342436F6E74726F6C6C65725F4C50432E680000000013555342436F6E74726F6C6C65725F4C50432E6800000000FFFFFFFFFFFFFFFF574A3A5C6E78705553426C69622076302E39375C6170706C69636174696F6E735C6578616D706C65735C6E78705553426C69625C4578616D706C655F4B6579626F6172644465766963655C44657363726970746F72732E63000000000D44657363726970746F72732E6300000000FFFFFFFFFFFFFFFF414A3A5C6E78705553426C69622076302E39375C6C69627261726965735C6E78705553426C69625C447269766572735C5553425C436F72655C5553425461736B2E6300000000095553425461736B2E6300000000FFFFFFFFFFFFFFFF554A3A5C6E78705553426C69622076302E39375C6C69627261726965735C6E78705553426C69625C447269766572735C5553425C436F72655C4C50435C48414C5C4C5043313758585C48414C5F4C5043313778782E63000000000D48414C5F4C5043313778782E6300000000FFFFFFFFFFFFFFFF414A3A5C6E78705553426C69622076302E39375C6C69627261726965735C6E78705553426C69625C447269766572735C5553425C436F72655C5553424D6F64652E6800000000095553424D6F64652E6800000000FFFFFFFFFFFFFFFF564A3A5C6E78705553426C69622076302E39375C6170706C69636174696F6E735C6578616D706C65735C6E78705553426C69625C4578616D706C655F4B6579626F617264486F73745C4B6579626F617264486F73742E63000000000E4B6579626F617264486F73742E6300000000FFFFFFFFFFFFFFFF494A3A5C6E78705553426C69622076302E39375C6C69627261726965735C6E78705553426C69625C447269766572735C5553425C436F72655C4C50435C48414C5C48414C5F4C50432E68000000000948414C5F4C50432E6800000000FFFFFFFFFFFFFFFF574A3A5C6E78705553426C69622076302E39375C6C69627261726965735C6E78705553426C69625C447269766572735C5553425C436F72655C4C50435C48414C5C4C504331315558585C48414C5F4C504331315578782E63000000000E48414C5F4C504331315578782E6300000000FFFFFFFFFFFFFFFF0000000010000000C5D4F200FFDC7800BECEA100F0A0A100BCA8E1009CC1B600F7B88600D9ADC200A5C2D700B3A6BE00EAD6A300F6FA7D00B5E99D005FC3CF00C1838300CACAD500010000000000000002000000730100006900000000050000A6020000</Data>
+      </MDITabState>
+    </MDIClientArea>
+  </WinLayoutEx>
+
+  <AlienFiles>
+    <Doc>
+      <Name></Name>
+      <ColumnNumber>0</ColumnNumber>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
+    </Doc>
+  </AlienFiles>
+
+  <MDIGroups>
+    <Orientation>1</Orientation>
+    <ActiveMDIGroup>0</ActiveMDIGroup>
+    <MDIGroup>
+      <Size>100</Size>
+      <ActiveTab>2</ActiveTab>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\applications\examples\nxpUSBlib\Example_KeyboardDevice\Keyboard.c</Name>
+        <ColumnNumber>0</ColumnNumber>
+        <TopLine>91</TopLine>
+        <CurrentLine>99</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\libraries\CDL\CMSISv2p00_LPC17xx\src\startup_LPC17xx.s</Name>
+        <ColumnNumber>0</ColumnNumber>
+        <TopLine>129</TopLine>
+        <CurrentLine>129</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\libraries\nxpUSBlib\Drivers\USB\Core\LPC\USBController_LPC.c</Name>
+        <ColumnNumber>20</ColumnNumber>
+        <TopLine>50</TopLine>
+        <CurrentLine>54</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h</Name>
+        <ColumnNumber>25</ColumnNumber>
+        <TopLine>815</TopLine>
+        <CurrentLine>831</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\libraries\nxpUSBlib\Drivers\USB\Core\LPC\USBController_LPC.h</Name>
+        <ColumnNumber>34</ColumnNumber>
+        <TopLine>223</TopLine>
+        <CurrentLine>239</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\applications\examples\nxpUSBlib\Example_KeyboardDevice\Descriptors.c</Name>
+        <ColumnNumber>0</ColumnNumber>
+        <TopLine>33</TopLine>
+        <CurrentLine>43</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\libraries\nxpUSBlib\Drivers\USB\Core\USBTask.c</Name>
+        <ColumnNumber>0</ColumnNumber>
+        <TopLine>42</TopLine>
+        <CurrentLine>57</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\libraries\nxpUSBlib\Drivers\USB\Core\LPC\HAL\LPC17XX\HAL_LPC17xx.c</Name>
+        <ColumnNumber>0</ColumnNumber>
+        <TopLine>32</TopLine>
+        <CurrentLine>38</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\libraries\nxpUSBlib\Drivers\USB\Core\USBMode.h</Name>
+        <ColumnNumber>5</ColumnNumber>
+        <TopLine>223</TopLine>
+        <CurrentLine>242</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\applications\examples\nxpUSBlib\Example_KeyboardHost\KeyboardHost.c</Name>
+        <ColumnNumber>1</ColumnNumber>
+        <TopLine>25</TopLine>
+        <CurrentLine>41</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\libraries\nxpUSBlib\Drivers\USB\Core\LPC\HAL\HAL_LPC.h</Name>
+        <ColumnNumber>0</ColumnNumber>
+        <TopLine>53</TopLine>
+        <CurrentLine>61</CurrentLine>
+      </Doc>
+      <Doc>
+        <Name>J:\nxpUSBlib v0.97\libraries\nxpUSBlib\Drivers\USB\Core\LPC\HAL\LPC11UXX\HAL_LPC11Uxx.c</Name>
+        <ColumnNumber>0</ColumnNumber>
+        <TopLine>30</TopLine>
+        <CurrentLine>38</CurrentLine>
+      </Doc>
+    </MDIGroup>
+  </MDIGroups>
+
+</ProjectGui>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/279/trunk/Code/Bluetooth/Services/RFCOMM
+END
+RFCOMMServiceTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/213/trunk/Code/Bluetooth/Services/RFCOMM/RFCOMMServiceTable.h
+END
+RFCOMM.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/279/trunk/Code/Bluetooth/Services/RFCOMM/RFCOMM.c
+END
+RFCOMM.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/213/trunk/Code/Bluetooth/Services/RFCOMM/RFCOMM.h
+END
+RFCOMMServiceTable.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/213/trunk/Code/Bluetooth/Services/RFCOMM/RFCOMMServiceTable.c
+END

@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3112826280</fileChecksum>
+  <configuration>
+    <name>LPC11Uxx_Device</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>IARCHIVE</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>LPC177x_8x_Device</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>IARCHIVE</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>LPC17xx_Device</name>
+    <outputs>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\AudioClassDevice.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\LPC17XX\Device_LPC17xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Common\CDCClassCommon.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\StillImageClass.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\HIDParser.i</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\StdRequestType.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Common\MassStorageClassCommon.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\MIDIClassDevice.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\MIDIClass.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\RNDISClassDevice.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\HIDClass.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\HostStandardReq.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Common\MIDIClassCommon.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\MassStorageClass.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\HAL\HAL_LPC.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\AudioClass.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\ConfigDescriptor.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\Endpoint.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\CDCClassDevice.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\USBTask.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\Device.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\EndpointStream.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Common\AudioClassCommon.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\RNDISClass.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\USBController.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\MassStorageClassDevice.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\HIDParser.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\RNDISClassDevice.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\USBMemory.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\USBTask.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\AudioClassHost.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Exe\nxpUSBlib_LPC17xx_Device.a</file>
+      <file>$PROJ_DIR$\..\CDL\CMSISv2p00_LPC17xx\lpcinc\LPC17xx.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\USBController_LPC.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\HIDClassDevice.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\Pipe_LPC.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\ConfigDescriptor.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\RNDISClassDevice.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\PrinterClassHost.i</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\DeviceStandardReq.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\Host_LPC.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\PipeStream_LPC.i</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\EndpointStream_LPC.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\Endpoint_LPC.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\DeviceStandardReq.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\MIDIClassHost.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\MassStorageClassDevice.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\MassStorageClassHost.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\MIDIClassHost.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\PrinterClassHost.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\RNDISClassHost.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\StillImageClassHost.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Endpoint_LPC17xx.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\usbd_cdc.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\usbd_hid.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\usbd_msc.o</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Common\HIDParser.c</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\AudioClassDevice.o</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\AudioClassDevice.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\CDCClassDevice.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\MassStorageClassDevice.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\MIDIClassDevice.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\RNDISClassDevice.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Host\AudioClassHost.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Host\CDCClassHost.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Host\HIDClassHost.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Host\MassStorageClassHost.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Host\MIDIClassHost.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Host\PrinterClassHost.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Host\RNDISClassHost.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Host\StillImageClassHost.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\LPC17XX\Endpoint_LPC17xx.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\USBRom\usbd_cdc.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\USBRom\usbd_hid.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\USBRom\usbd_msc.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\USBRom\usbd_rom.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\HAL\LPC17XX\HAL_LPC17xx.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\Device_LPC.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\ConfigDescriptor.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\Endpoint_LPC.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\EndpointStream_LPC.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\Host_LPC.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\HIDClassDevice.c</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Events.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\usbd_rom.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\HAL_LPC17xx.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Device_LPC.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Endpoint_LPC.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\EndpointStream_LPC.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Host_LPC.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Pipe_LPC.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\PipeStream_LPC.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\USBController_LPC.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Events.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\HostStandardReq.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\USBMemory.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\USBTask.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\usbd_rom.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\HIDParser.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Device_LPC.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\AudioClassDevice.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\CDCClassDevice.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\HIDClassDevice.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\MIDIClassDevice.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\MassStorageClassDevice.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\RNDISClassDevice.pbi</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Common\RNDISClassCommon.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\Endpoint_LPC.h</file>
+      <file>$PROJ_DIR$\..\CDL\LPC17xxLib\inc\lpc_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Device\HIDClassDevice.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\HAL\LPC17XX\HAL_LPC17xx.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\PrinterClass.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\USBController_LPC.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\HIDClassHost.i</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\Device_LPC.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\LPC17XX\Endpoint_LPC17xx.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\usbd_msc.i</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\CDCClass.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\EndpointCommon.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\EndpointStream_LPC.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\CDCClassDevice.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\USBMemory.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\AudioClassDevice.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\usbd_cdc.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\MassStorageClassDevice.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\HostStandardReq.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\Events.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\usbd_rom.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\HIDClassDevice.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\USBTask.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\CDCClassHost.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\StillImageClassHost.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\MIDIClassDevice.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\MassStorageClassHost.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\Device_LPC.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\HAL_LPC17xx.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\usbd_hid.i</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\AudioClassHost.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\CDCClassHost.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\HIDClassHost.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\MassStorageClassHost.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\MIDIClassHost.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\PrinterClassHost.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\RNDISClassHost.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\StillImageClassHost.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Endpoint_LPC17xx.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\usbd_cdc.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\usbd_hid.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\usbd_msc.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\HAL_LPC17xx.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\nxpUSBlib.pbd</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\ConfigDescriptor.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Endpoint_LPC.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\EndpointStream_LPC.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Host_LPC.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\Pipe_LPC.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\PipeStream_LPC.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\DeviceStandardReq.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\USBController_LPC.pbi</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\USBInterrupt.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\HostStandardReq.pbi</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\RNDISClassHost.i</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Common\HIDReportData.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\List\Endpoint_LPC17xx.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Common\Common.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Common\HIDParser.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\USBMode.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\Events.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\USB.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\Common\CompilerSpecific.h</file>
+      <file>$PROJ_DIR$\Common\ArchitectureSpecific.h</file>
+      <file>$PROJ_DIR$\Common\Architectures.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Class\Common\HIDClassCommon.h</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\StdDescriptors.h</file>
+      <file>$PROJ_DIR$\..\CDL\CMSISv2p00_LPC17xx\lpcinc\system_LPC17xx.h</file>
+      <file>$PROJ_DIR$\Common\Attributes.h</file>
+      <file>$PROJ_DIR$\Common\BoardTypes.h</file>
+      <file>$PROJ_DIR$\Common\Endianness.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\CDCClassDevice.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\HIDClassHost.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\ConfigDescriptor.o</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\Pipe_LPC.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\PipeStream_LPC.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\LPC\USBController_LPC.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\DeviceStandardReq.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\Events.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\HostStandardReq.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\USBMemory.c</file>
+      <file>$PROJ_DIR$\Drivers\USB\Core\USBTask.c</file>
+      <file>$PROJ_DIR$\nxpUSBlibConfig.h</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\MIDIClassDevice.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\DeviceStandardReq.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\AudioClassHost.o</file>
+      <file>$PROJ_DIR$\LPC17xx_Device\Obj\CDCClassHost.o</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Common\HIDParser.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175 174 104 172 173 178 176 179 177 183 182 185 186 187 188 209 190 189 191 195 196 197 170 192 193 180 181</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 174 104 172 173 178 176 179 177 183 182 185 186 187 188 209 190 189 191 195 196 197 170 192 193 180 181</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Device\AudioClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 0 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 125 22 3 116 12 14 117 192 175 170 17 29 7 11 10 16 26 119 27 13 113 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 0 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 125 22 3 116 12 14 117 192 175 170 17 29 7 11 10 16 26 119 27 13 113 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Device\CDCClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128 198</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 22 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 0 26 125 14 117 192 175 170 17 29 7 11 10 16 119 27 13 113 3 4 116 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 22 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 0 26 125 14 117 192 175 170 17 29 7 11 10 16 119 27 13 113 3 4 116 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Device\MassStorageClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 29 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 0 26 125 22 3 116 12 14 117 192 175 170 17 11 10 16 119 27 13 113 4 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 29 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 0 26 125 22 3 116 12 14 117 192 175 170 17 11 10 16 119 27 13 113 4 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Device\MIDIClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140 210</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 10 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 0 26 125 22 3 116 12 14 117 192 175 170 17 29 7 11 119 27 13 113 4 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 10 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 0 26 125 22 3 116 12 14 117 192 175 170 17 29 7 11 119 27 13 113 4 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Device\RNDISClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 13 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 0 26 125 22 3 116 12 14 117 192 175 170 17 29 7 11 10 16 119 27 4 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 13 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 0 26 125 22 3 116 12 14 117 192 175 170 17 29 7 11 10 16 119 27 4 113</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Host\AudioClassHost.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 212</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Host\CDCClassHost.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Host\HIDClassHost.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121 199</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Host\MassStorageClassHost.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Host\MIDIClassHost.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Host\PrinterClassHost.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Host\RNDISClassHost.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 169 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Host\StillImageClassHost.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\LPC17XX\Endpoint_LPC17xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 21 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 181 167 24 193 122 1 45 6 25 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 21 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 181 167 24 193 122 1 45 6 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\USBRom\usbd_cdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 24 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 167 21 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 45 6 25 48 122 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 24 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 167 21 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 45 6 25 48 122 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\USBRom\usbd_hid.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 24 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 167 21 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 45 6 25 48 122 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 24 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 167 21 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 45 6 25 48 122 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\USBRom\usbd_msc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 24 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 167 21 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 45 6 25 48 122 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 24 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 167 21 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 45 6 25 48 122 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\DCD\USBRom\usbd_rom.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 24 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 167 21 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 45 6 25 48 122 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 24 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 167 21 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 45 6 25 48 122 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\HAL\LPC17XX\HAL_LPC17xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 118 36 37 104 172 173 178 176 179 177 183 38 2 9 8 194 115 180 209 23 174 182 185 186 187 188 190 189 191 195 196 197 28 120 181 167 24 193 21 114 123 126 122 1 45 6 25 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 118 36 37 104 172 173 178 176 179 177 183 38 2 9 8 194 115 180 209 23 174 182 185 186 187 188 190 189 191 195 196 197 28 120 181 167 24 193 21 114 123 126 122 1 45 6 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\Device_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 24 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 167 21 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 45 6 25 48 122 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 24 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 167 21 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 45 6 25 48 122 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\ConfigDescriptor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42 200</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 174 104 172 173 178 176 179 177 183 182 185 186 187 188 209 190 189 191 195 196 197 180 15 6 28 120 181 23 193 45 167 24 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 25 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 174 104 172 173 178 176 179 177 183 182 185 186 187 188 209 190 189 191 195 196 197 180 15 6 28 120 181 23 193 45 167 24 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\Endpoint_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 21 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 181 167 24 193 122 1 45 6 25 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 21 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 114 123 126 18 118 36 37 38 2 9 8 194 115 23 28 120 181 167 24 193 122 1 45 6 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\EndpointStream_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 48 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 48 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\Host_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Class\Device\HIDClassDevice.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 117 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 0 26 125 22 3 116 12 14 17 29 7 11 10 16 119 27 13 113 4 192 175 170</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 117 184 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 23 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48 20 15 19 0 26 125 22 3 116 12 14 17 29 7 11 10 16 119 27 13 113 4 192 175 170</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\Pipe_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\PipeStream_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\LPC\USBController_LPC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28 174 104 172 173 178 176 179 177 183 182 185 186 187 188 209 190 189 191 195 196 197 180 120 181 23 6 193 45 167 24 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 25 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 174 104 172 173 178 176 179 177 183 182 185 186 187 188 209 190 189 191 195 196 197 180 120 181 23 6 193 45 167 24 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\DeviceStandardReq.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 211</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209 45 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 6 23 28 120 167 24 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 25 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209 45 174 104 172 173 178 176 179 177 183 182 185 186 187 188 190 189 191 195 196 197 193 181 6 23 28 120 167 24 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\Events.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181 174 104 172 173 178 176 179 177 183 182 185 186 187 188 209 190 189 191 195 196 197 180</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181 174 104 172 173 178 176 179 177 183 182 185 186 187 188 209 190 189 191 195 196 197 180</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\HostStandardReq.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133 100</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\USBMemory.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180 209</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\USB\Core\USBTask.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 174 104 172 173 178 176 179 177 183 182 185 186 187 188 209 190 189 191 195 196 197 180 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 174 104 172 173 178 176 179 177 183 182 185 186 187 188 209 190 189 191 195 196 197 180 28 120 181 167 24 193 21 114 123 126 18 118 36 37 38 2 9 8 194 115 122 1 45 6 25 48</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>LPC18xx_Device</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>IARCHIVE</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>LPC43xx_Device</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>IARCHIVE</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

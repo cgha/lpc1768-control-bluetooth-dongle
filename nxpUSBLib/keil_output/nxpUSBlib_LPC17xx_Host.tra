@@ -1,0 +1,52 @@
+*** Creating Trace Output File '.\keil_output\nxpUSBlib_LPC17xx_Host.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\keil_output\configdescriptor.o"'
+### List of Objects: adding '".\keil_output\devicestandardreq.o"'
+### List of Objects: adding '".\keil_output\events.o"'
+### List of Objects: adding '".\keil_output\hoststandardreq.o"'
+### List of Objects: adding '".\keil_output\usbtask.o"'
+### List of Objects: adding '".\keil_output\usbmemory.o"'
+### List of Objects: adding '".\keil_output\device_lpc.o"'
+### List of Objects: adding '".\keil_output\endpoint_lpc.o"'
+### List of Objects: adding '".\keil_output\endpointstream_lpc.o"'
+### List of Objects: adding '".\keil_output\host_lpc.o"'
+### List of Objects: adding '".\keil_output\pipe_lpc.o"'
+### List of Objects: adding '".\keil_output\pipestream_lpc.o"'
+### List of Objects: adding '".\keil_output\usbcontroller_lpc.o"'
+### List of Objects: adding '".\keil_output\hal_lpc17xx.o"'
+### List of Objects: adding '".\keil_output\hcd.o"'
+### List of Objects: adding '".\keil_output\ohci.o"'
+### List of Objects: adding '".\keil_output\ehci.o"'
+### List of Objects: adding '".\keil_output\endpoint_lpc17xx.o"'
+### List of Objects: adding '".\keil_output\usbd_cdc.o"'
+### List of Objects: adding '".\keil_output\usbd_hid.o"'
+### List of Objects: adding '".\keil_output\usbd_msc.o"'
+### List of Objects: adding '".\keil_output\usbd_rom.o"'
+### List of Objects: adding '".\keil_output\startup_lpc17xx.o"'
+### List of Objects: adding '".\keil_output\system_lpc17xx.o"'
+### List of Objects: adding '".\keil_output\bluetoothrobot.o"'
+### List of Objects: adding '".\keil_output\bluetoothadapter.o"'
+### List of Objects: adding '".\keil_output\bluetoothcontrol.o"'
+### List of Objects: adding '".\keil_output\bluetooth.o"'
+### List of Objects: adding '".\keil_output\bluetoothhci.o"'
+### List of Objects: adding '".\keil_output\bluetoothl2cap.o"'
+### List of Objects: adding '".\keil_output\sdp.o"'
+### List of Objects: adding '".\keil_output\rfcomm.o"'
+### List of Objects: adding '".\keil_output\rfcommservicetable.o"'
+### List of Objects: adding '"..\CDL\keil_output\CDL_LPC17xx.lib"'
+### List of Objects: adding '"..\BSP\keil_output\BSP_MCB1700.lib"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\keil_output\configdescriptor.o" ".\keil_output\devicestandardreq.o" ".\keil_output\events.o" ".\keil_output\hoststandardreq.o" ".\keil_output\usbtask.o" ".\keil_output\usbmemory.o" ".\keil_output\device_lpc.o" ".\keil_output\endpoint_lpc.o" ".\keil_output\endpointstream_lpc.o" ".\keil_output\host_lpc.o" ".\keil_output\pipe_lpc.o" ".\keil_output\pipestream_lpc.o" ".\keil_output\usbcontroller_lpc.o" ".\keil_output\hal_lpc17xx.o" ".\keil_output\hcd.o" ".\keil_output\ohci.o" ".\keil_output\ehci.o" ".\keil_output\endpoint_lpc17xx.o" ".\keil_output\usbd_cdc.o" ".\keil_output\usbd_hid.o" ".\keil_output\usbd_msc.o" ".\keil_output\usbd_rom.o" ".\keil_output\startup_lpc17xx.o" ".\keil_output\system_lpc17xx.o" ".\keil_output\bluetoothrobot.o" ".\keil_output\bluetoothadapter.o" ".\keil_output\bluetoothcontrol.o" ".\keil_output\bluetooth.o" ".\keil_output\bluetoothhci.o" ".\keil_output\bluetoothl2cap.o" ".\keil_output\sdp.o" ".\keil_output\rfcomm.o" ".\keil_output\rfcommservicetable.o" "J:\code\nxpUSBlib v0.97\libraries\CDL\keil_output\CDL_LPC17xx.lib" "J:\code\nxpUSBlib v0.97\libraries\BSP\keil_output\BSP_MCB1700.lib" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\keil_output\nxpUSBlib_LPC17xx_Host.map" -o ".\keil_output\nxpUSBlib_LPC17xx_Host.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\keil_output\nxpUSBlib_LPC17xx_Host.axf'
+### ADS-LD Command File: '.\keil_output\nxpUSBlib_LPC17xx_Host.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\keil_output\nxpUSBlib_LPC17xx_Host.lnp', Handle=0x000004D8
+### Writing '.lnp' file
+### ADS-LD Command file '.\keil_output\nxpUSBlib_LPC17xx_Host.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/227/trunk/Code/Bluetooth/Services/SDP
+END
+SDPServiceTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/213/trunk/Code/Bluetooth/Services/SDP/SDPServiceTable.h
+END
+SDP.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/213/trunk/Code/Bluetooth/Services/SDP/SDP.c
+END
+SDP.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/213/trunk/Code/Bluetooth/Services/SDP/SDP.h
+END

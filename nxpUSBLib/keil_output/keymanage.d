@@ -1,0 +1,10 @@
+.\keil_output\keymanage.o: KeyManage.c
+.\keil_output\keymanage.o: ..\CDL\LPC17xxLib\inc\lpc17xx_gpio.h
+.\keil_output\keymanage.o: C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h
+.\keil_output\keymanage.o: ..\CDL\CMSISv2p00_LPC17xx\inc\core_cm3.h
+.\keil_output\keymanage.o: C:\Keil\ARM\RV31\Inc\stdint.h
+.\keil_output\keymanage.o: ..\CDL\CMSISv2p00_LPC17xx\inc\core_cmInstr.h
+.\keil_output\keymanage.o: ..\CDL\CMSISv2p00_LPC17xx\inc\core_cmFunc.h
+.\keil_output\keymanage.o: C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\keil_output\keymanage.o: ..\CDL\LPC17xxLib\inc\lpc_types.h
+.\keil_output\keymanage.o: ..\CDL\LPC17xxLib\inc\lpc17xx_pinsel.h
